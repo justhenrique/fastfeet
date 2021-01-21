@@ -12,6 +12,7 @@ routes.get('/', (req, res) => {
   res.json({message: "HelloWorld Test"})
 });
 
+
 // Login 
 routes.post('/sessions', SessionController.store);
 
